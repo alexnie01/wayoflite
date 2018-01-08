@@ -82,7 +82,7 @@ def simple_arb(slippage = .00005):
     """simple LTC/BTC between CoinExchange and GDAX/Binance. Assumes LTC is cheaper on CoinExchange"""
     print("Assuming slippage of {}".format(slippage))
     running = True
-    exchs = ['GDAX', 'Binance']
+    exchs = ['Binance']
     ratios = {}
     btc = {}
     while running:
